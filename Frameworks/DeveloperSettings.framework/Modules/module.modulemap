@@ -1,0 +1,11 @@
+framework module DeveloperSettings {
+  umbrella header "DeveloperSettings.h"
+
+  export *
+  module * { export * }
+}
+
+module DeveloperSettings.Swift {
+    header "DeveloperSettings-Swift.h"
+    requires objc
+}
